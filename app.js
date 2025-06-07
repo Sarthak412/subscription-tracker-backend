@@ -33,7 +33,7 @@ app.use("/api/v1/workflows", workflowRouter);
 
 app.use(errorMiddleware);
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   res.send("Welcome to the subscription tracker API");
 });
 
